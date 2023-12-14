@@ -6,6 +6,7 @@ import AboutUs from './AboutUs.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <AboutUs />
+    {/* <ContactUs /> */}
+    <AboutUs/>
   </React.StrictMode>,
 )

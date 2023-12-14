@@ -1,4 +1,4 @@
-export default function ContactUs(props) {
+export default function ContactUs() {
   const address = "Saguna Baug, Malegaon Village, Neral East, Raigad District, Maharashtra – 410101";
   const phoneNumbers = [
     "+919370702932",
@@ -12,7 +12,7 @@ export default function ContactUs(props) {
 
   return (
     <>
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center bg-[#fafafa]">
         <div className="text-3xl font-montserrat font-bold border-b-2 border-black border-dotted py-6 my-2">
           Contact Us
         </div>
@@ -48,6 +48,14 @@ export default function ContactUs(props) {
               <div key={time}>{time}</div>
             ))}
           </div>
+        </div>
+      </div>
+      <div className="flex flex-col items-center justify-center">
+        <div className="text-3xl font-montserrat font-bold border-b-2 border-black border-dotted py-6 my-2">
+            Enquire Now
+        </div>
+        <div className="px-4">
+
         </div>
       </div>
     </>
