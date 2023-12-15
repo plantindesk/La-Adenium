@@ -53,7 +53,7 @@ export default function AboutUs() {
         </div>      
 </div>
 
-<div className="container  mt-8 px-2 flex flex-wrap items-start">
+<div className="container  mt-8 px-2 flex flex-wrap items-center">
       {/* Image */}
       <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 mb-4 md:mb-0">
         <img
