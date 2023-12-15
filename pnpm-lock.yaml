@@ -13,6 +13,9 @@ dependencies:
     version: 18.2.0(react@18.2.0)
 
 devDependencies:
+  '@flaticon/flaticon-uicons':
+    specifier: ^3.0.0
+    version: 3.0.0
   '@types/react':
     specifier: ^18.2.43
     version: 18.2.45
@@ -516,6 +519,12 @@ packages:
   /@eslint/js@8.55.0:
     resolution: {integrity: sha512-qQfo2mxH5yVom1kacMtZZJFVdW+E70mqHMJvVg6WTLo+VBuQJ4TojZlfWBjK0ve5BdEeNAVxOsl/nvNMpJOaJA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    dev: true
+
+  /@flaticon/flaticon-uicons@3.0.0:
+    resolution: {integrity: sha512-dHBQN8vpn+04uLzsMLmK9dW0Fk+28A6809/PAteKVtXrAaZ6R2VOtqXoy9PqkrFIvFj7HOMDh1zFLKTCspz5Ug==}
+    optionalDependencies:
+      esbuild-linux-64: 0.14.54
     dev: true
 
   /@humanwhocodes/config-array@0.11.13:
@@ -1202,6 +1211,15 @@ packages:
       is-date-object: 1.0.5
       is-symbol: 1.0.4
     dev: true
+
+  /esbuild-linux-64@0.14.54:
+    resolution: {integrity: sha512-EgjAgH5HwTbtNsTqQOXWApBaPVdDn7XcK+/PtJwZLT1UmpLoznPd8c5CxqsH2dQK3j05YsB3L17T8vE7cp4cCg==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
 
   /esbuild@0.19.9:
     resolution: {integrity: sha512-U9CHtKSy+EpPsEBa+/A2gMs/h3ylBC0H0KSqIg7tpztHerLi6nrrcoUJAkNCEPumx8yJ+Byic4BVwHgRbN0TBg==}
